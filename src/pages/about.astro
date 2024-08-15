@@ -31,21 +31,19 @@ const textCase = "uppercase";
 
     <style define:vars={{ skillColor, fontWeight, textCase }}>
       h1 {
-	color: purple;
-	font-size: 4rem;
+        color: purple;
+        font-size: 4rem;
       }
 
       .skill {
-	color: var(--skillColor);
-	font-weight: var(--fontWeight);
-	text-transform: var(--textCase);
+        color: var(--skillColor);
+        font-weight: var(--fontWeight);
+        text-transform: var(--textCase);
       }
     </style>
   </head>
   <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
+    <Navigation/>
 
     <h1>{pageTitle}</h1>
     <h2>... and my new Astro site!</h2>
@@ -58,7 +56,7 @@ const textCase = "uppercase";
       <li>My name is {identity.firstName}.</li>
       <li>I live in {identity.country} and I work as a {identity.occupation}.</li>
       {identity.hobbies.length >= 2 &&
-	<li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
+        <li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
       }
     </ul>
 
