@@ -9,6 +9,10 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "prettier": {
+    "bracketSpacing": true,
+    "plugins": ["prettier-plugin-astro"]
+  },
   "dependencies": {
     "astro": "^4.13.3"
   },

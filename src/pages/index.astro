@@ -1,6 +1,8 @@
 ---
-import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
+import "../styles/global.css";
+
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
 
 const pageTitle = "Home page";
 ---
@@ -13,12 +15,14 @@ const pageTitle = "Home page";
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
   </head>
+
   <body>
-    <Navigation/>
+    <Navigation />
 
     <h1>{pageTitle}</h1>
     <p>Welcome!</p>
     <p>We make just first steps.</p>
+
+    <Footer />
   </body>
 </html>
-
