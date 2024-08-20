@@ -12,20 +12,19 @@ body {
   line-height: 1.5;
 }
 
-// basic-classes
-.wrapper {
-  margin: 50px;
-}
-
 * {
   box-sizing: border-box;
 }
 
 h1 {
-  color: #179299;
   font-weight: bold;
-  margin: 0.1rem 0;
+  margin: 0rem 0;
   font-size: 2.5rem;
+}
+
+/* main styles */
+.wrapper {
+  padding-top: 5rem;
 }
 
 /* nav styles */
@@ -47,7 +46,6 @@ h1 {
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: linear-gradient(#eff1f5,#f5dfdb,#eecac3,#e0f6fa);
   color: #4c4f69;
     // #e6e9ef;
   display: none;
@@ -62,14 +60,12 @@ h1 {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
-  background: linear-gradient(#eff1f5,#f5dfdb,#eecac3,#eff1f5);
   color: #4c4f69;
 }
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background: linear-gradient(#eff1f5,#f1d1cb,#eabbb3,#eabbb3,#f1d1cb,#eff1f5);
-  color: #179299;
+  background: #dce0e8;
   font-weight: bold;
 }
 
