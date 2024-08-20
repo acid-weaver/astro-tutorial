@@ -17,15 +17,17 @@ const pageTitle = "My Astro Learning Blog";
 
   <body>
     <BaseLayout pageTitle={pageTitle}>
-      <p>This is where I will post about my journey learning Astro.</p>
+      <div class="wrapper">
+        <p>This is where I will post about my journey learning Astro.</p>
 
-      <ul>
-        {
-          allPosts.map((post) => (
-            <BlogPost url={post.url} title={post.frontmatter.title} />
-          ))
-        }
-      </ul>
+        <ul>
+          {
+            allPosts.map((post) => (
+              <BlogPost url={post.url} title={post.frontmatter.title} />
+            ))
+          }
+        </ul>
+      </div>
     </BaseLayout>
   </body>
 </html>
