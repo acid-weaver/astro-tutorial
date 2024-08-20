@@ -11,9 +11,12 @@
   },
   "prettier": {
     "bracketSpacing": true,
-    "plugins": ["prettier-plugin-astro"]
+    "plugins": [
+      "prettier-plugin-astro"
+    ]
   },
   "dependencies": {
+    "@astrojs/rss": "^4.0.7",
     "astro": "^4.13.3"
   },
   "devDependencies": {

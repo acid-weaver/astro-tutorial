@@ -7,23 +7,24 @@ import Navigation from "./Navigation.astro";
   header {
     display: flex;
     gap: 1rem;
-    /* margin-top: 2rem; */
+    margin-top: 2rem;
   }
 
-  p {
-    margin-top: 0;
+  header .h1 {
+    /* margin-top: 5px; */
     display: block;
     text-align: center;
     padding: 10px 0;
     text-decoration: none;
     font-size: 1.4rem;
+    color: #179299;
     font-weight: bold;
     text-transform: uppercase;
   }
 </style>
 
 <header>
-  <p>Astro site</p>
+  <h1>Astro site</h1>
   <nav>
     <Hamburger />
     <Navigation />
