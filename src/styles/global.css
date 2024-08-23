@@ -5,9 +5,9 @@ html {
 }
 
 body {
+  display: flex;
   margin: 0rem auto;
   width: 100%;
-  max-width: 80ch;
   padding: 1rem;
   line-height: 1.5;
 }
@@ -25,6 +25,21 @@ h1 {
 /* main styles */
 .wrapper {
   padding-top: 5rem;
+}
+
+.body-main {
+  margin: 0rem auto;
+  width: 100%;
+  max-width: 80ch;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+.body-side {
+  margin: 0rem auto;
+  width: 100%;
+  padding: 1rem;
+  line-height: 1.5;
 }
 
 .link {
