@@ -74,6 +74,16 @@ h1 {
   display: unset;
 }
 
+/* dark theme */
+html.dark {
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+}
+
+.dark .nav-links a {
+  color: #cdd6f4;
+}
+
 @media screen and (min-width: 636px) {
   .nav-links {
     margin-left: 5em;
