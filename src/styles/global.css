@@ -107,6 +107,10 @@ html.dark {
   color: #cdd6f4;
 }
 
+.dark .tag {
+  background-color: #f9e2af;
+}
+
 .dark .nav-links a {
   color: #cdd6f4;
 }
